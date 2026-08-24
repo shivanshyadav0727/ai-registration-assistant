@@ -5,3 +5,4 @@ flask==3.0.3
 python-dotenv==1.0.1
 pytest==8.3.2
 numpy==1.26.4
+gunicorn==23.0.0
