@@ -1,0 +1,38 @@
+{
+    "internship": {
+        "patterns": [
+            "what is the internship",
+            "tell me about the internship",
+            "internship details",
+            "what is this program"
+        ],
+        "response": "This is a Free Online AI & Data Science Internship focused on Python, NLP, Machine Learning, and conversational AI."
+    },
+    "registration": {
+        "patterns": [
+            "how do i register",
+            "registration process",
+            "how can i apply",
+            "how to register"
+        ],
+        "response": "To register, provide your name, email, field of study, and programming experience. The assistant will validate your information and ask you to confirm it."
+    },
+    "skills": {
+        "patterns": [
+            "required skills",
+            "what skills do i need",
+            "skills required",
+            "prerequisites"
+        ],
+        "response": "Recommended skills include basic Python, programming fundamentals, and an interest in AI, Data Science, NLP, or Machine Learning."
+    },
+    "status": {
+        "patterns": [
+            "application status",
+            "registration status",
+            "check my status",
+            "where is my application"
+        ],
+        "response": "Your registration is stored after successful confirmation. Your registration ID can be used to identify your submitted registration."
+    }
+}

@@ -1,0 +1,251 @@
+{
+  "greeting": {
+    "patterns": [
+      "hi",
+      "hello",
+      "hey",
+      "hello there",
+      "hey there",
+      "hi there",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "how are you",
+      "how are you doing",
+      "nice to meet you"
+    ],
+    "responses": [
+      "Hello! Welcome to the Free Online AI & Data Science Internship Registration. How can I help you?",
+      "Hi! I'm here to help you with your internship registration."
+    ]
+  },
+
+  "register": {
+    "patterns": [
+      "register",
+      "registration",
+      "register me",
+      "I want to register",
+      "I want to register for the internship",
+      "I want to apply",
+      "I want to apply for the internship",
+      "apply",
+      "apply for internship",
+      "sign up",
+      "sign me up",
+      "join",
+      "join the internship",
+      "enroll",
+      "enroll me"
+    ],
+    "responses": [
+      "Great! I'll help you register for the internship. Please provide your full name."
+    ]
+  },
+
+  "provide_name": {
+    "patterns": [
+      "my name is",
+      "my name",
+      "I am",
+      "I am called",
+      "I'm called",
+      "name is",
+      "my full name is"
+    ],
+    "responses": [
+      "Nice to meet you, {name}! Next, I need your email address."
+    ]
+  },
+
+  "provide_email": {
+    "patterns": [
+      "my email is",
+      "my email",
+      "email address",
+      "email",
+      "mail",
+      "gmail",
+      "yahoo",
+      "outlook",
+      "my email address is"
+    ],
+    "responses": [
+      "Thank you! Your email {email} has been recorded. Now, please tell me your field of study."
+    ]
+  },
+
+  "provide_field": {
+    "patterns": [
+      "computer science",
+      "computer science student",
+      "data science",
+      "data science student",
+      "information technology",
+      "IT",
+      "engineering",
+      "software engineering",
+      "software development",
+      "my field is computer science",
+      "I study computer science",
+      "I study engineering",
+      "I study data science",
+      "my degree is computer science",
+      "my degree is engineering",
+      "my major is computer science",
+      "my major is data science",
+      "my field of study is computer science"
+    ],
+    "responses": [
+      "Perfect! You're studying {field}. Now tell me about your programming experience."
+    ]
+  },
+
+  "provide_experience": {
+    "patterns": [
+      "beginner",
+      "I am a beginner",
+      "I'm a beginner",
+      "beginner level",
+      "I have beginner experience",
+      "intermediate",
+      "I am intermediate",
+      "I'm intermediate",
+      "intermediate level",
+      "I have intermediate experience",
+      "advanced",
+      "I am advanced",
+      "I'm advanced",
+      "advanced level",
+      "I have advanced experience",
+      "expert",
+      "I am an expert",
+      "programming experience",
+      "my experience is beginner",
+      "my experience is intermediate",
+      "my experience is advanced"
+    ],
+    "responses": [
+      "Great! Your experience level is {experience}. Let me confirm your registration."
+    ]
+  },
+
+  "confirm": {
+    "patterns": [
+      "yes",
+      "yes please",
+      "yes I confirm",
+      "I confirm",
+      "confirm",
+      "confirmed",
+      "sure",
+      "sure yes",
+      "ok",
+      "okay",
+      "that is correct",
+      "correct",
+      "yes that's correct"
+    ],
+    "responses": [
+      "Your registration is confirmed!"
+    ]
+  },
+
+  "reject": {
+    "patterns": [
+      "no",
+      "no thanks",
+      "cancel",
+      "cancel registration",
+      "restart",
+      "start over",
+      "I want to restart",
+      "I want to start over",
+      "cancel my registration"
+    ],
+    "responses": [
+      "No problem. Let's start the registration again."
+    ]
+  },
+
+  "help": {
+    "patterns": [
+      "help",
+      "I need help",
+      "can you help me",
+      "help me",
+      "support",
+      "I need support",
+      "assist me",
+      "guide me",
+      "guide me through registration",
+      "how can you help me",
+      "I need assistance"
+    ],
+    "responses": [
+      "I can help you with registration, internship details, required information, and application-related questions."
+    ]
+  },
+
+  "faq": {
+    "patterns": [
+      "what is this internship",
+      "what is the internship",
+      "tell me about the internship",
+      "internship details",
+      "what do I need",
+      "required skills",
+      "what skills are required",
+      "how does registration work",
+      "what is AI data science internship",
+      "tell me about this internship",
+      "what are the internship requirements"
+    ],
+    "responses": [
+      "This is a free online AI & Data Science internship designed to provide practical experience with AI, data science, NLP, and related technologies."
+    ]
+  },
+
+  "thank_you": {
+    "patterns": [
+      "thank you",
+      "thanks",
+      "thank you very much",
+      "many thanks",
+      "thanks a lot",
+      "thank you so much",
+      "I appreciate it",
+      "I appreciate your help",
+      "appreciate your help"
+    ],
+    "responses": [
+      "You're welcome! Is there anything else I can help you with?"
+    ]
+  },
+
+  "goodbye": {
+    "patterns": [
+      "bye",
+      "goodbye",
+      "bye bye",
+      "see you",
+      "see you later",
+      "see you soon",
+      "take care",
+      "exit",
+      "quit",
+      "I want to leave",
+      "I want to exit"
+    ],
+    "responses": [
+      "Thank you for using the AI Registration Assistant. Goodbye!"
+    ]
+  },
+
+  "unknown": {
+    "patterns": [],
+    "responses": [
+      "I'm not sure I understood. Could you please rephrase your question?"
+    ]
+  }
+}
